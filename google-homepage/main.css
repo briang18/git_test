@@ -1,0 +1,151 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
+
+.navbar-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-items li {
+	float: right;
+}
+
+.navbar-items li a {
+	display: block;
+	text-align: center;
+	padding: 14px 10px;
+	font-size: 13px;
+}
+
+.navbar {
+	width: 100%;
+	height: 50px;
+	margin-bottom: 2px;
+}
+
+.search-bar {
+	margin-left: -40px;	
+	display: block;
+	width: 582px;
+	height: 44px;
+	border-radius: 25px;
+	padding: 15px;
+	border: 1px solid #dfe1e5;
+	outline: none;
+	
+}
+
+.search-bar:hover {
+	box-shadow: 1px 1px 5px #8888889f;
+}
+
+.logo {
+	display: block;
+	margin:  auto;
+	margin-bottom:26px ;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+}
+
+.search-button {
+	margin: 30px 5px;
+	padding: 9px 17px;
+	text-align: center;
+	background-color: #f8f9fa;
+	color: #3c4043;
+	border: 1px solid #f8f9fa;
+	border-radius: 4px;
+	outline: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+.search-button:hover {
+	box-shadow: 1px 1px 3px #8888889f;
+	border: solid 1px #8888889f;
+	color: black;
+}
+
+.footer {
+	border-top: solid 1px #dadce0;;
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	background-color: #eeeeee;
+	color: rgba(0,0,0,.54);
+}
+
+.footer-country{
+	border-top: solid 1px #8888883f;
+	width: 100%;
+	position: fixed;
+	bottom: 45px;
+	left: 0;
+	background-color: #eeeeee;
+	color: rgba(0,0,0,.54);
+}
+.footer-country-items{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+.footer-country-items li
+{
+float:left;
+}
+.footer-country-items li a{
+	display: block;
+	text-align: center;
+	padding: 15px 30px;
+	color: rgba(0, 0, 0, .54);
+	font-family: arial,sans-serif;
+	font-size: 15px;
+}
+
+.footer-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	
+}
+
+.footer-items li {
+	float: left;
+	
+}
+
+.footer-items li a {
+	display: block;
+	text-align: center;
+	padding: 15px 30px;
+	color: rgba(0, 0, 0, .54);
+	font-family: arial,sans-serif;
+	font-size: 15px;
+	justify-content: space-evenly;
+}
+
+.glass-box{
+	display: block;
+	margin: auto;
+}
+.glass-span{
+	margin-top: 3px;
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+}
